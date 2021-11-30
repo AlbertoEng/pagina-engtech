@@ -6,7 +6,12 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: black;
+  position: relative;
 }
+
+
+
 
 .main {
   padding: 5rem 0;

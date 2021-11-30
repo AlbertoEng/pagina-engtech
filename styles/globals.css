@@ -13,4 +13,414 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.logo{
+  width: 50%;
+  height: 50%;
+}
+
+.divLogo{
+  cursor: pointer;
+}
+
+.navbar{
+  background-color: rgba(20, 20, 20, 0.966);
+  padding: 20px;
+  width: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.596);
+  border-bottom-right-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.MenuPpal{
+  list-style: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.footerInfo{
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(20, 20, 20, 0.966);
+  right: 0px;
+  width: 30%;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  border-top-left-radius: 50px;
+}
+
+.logoWhats{
+  padding-left:  20px;
+  width: 50px;
+}
+
+.containerFooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home{
+  background-image: url('/fondo-home.jpg');
+  background-size: auto;
+  height: 100vh;
+  background-color: rgba(36, 36, 36, 0.96);
+}
+
+.capaTransparente{
+  background-color: rgba(36, 36, 36, 0.96);
+  height: 100vh;
+}
+
+.itemNavbar:hover{
+  cursor: pointer;
+  color: rgb(255, 145, 0);
+  text-shadow: 0px 0px 5px orangered;
+  transform: scale(1.03);
+}
+
+.bienvenido{
+  color: white;
+  font-size: 70px;
+}
+
+
+.infoContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContent{
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+
+.leftPart{
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.rightPart{
+  width: 50%;
+  height: 100%;
+
+}
+
+.leftContainer{
+  width: 100%;
+  height: 70%;
+}
+
+.imgContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.imagen{
+  width: 70%;
+  height: 80%;
+  border-radius: 20px;
+  box-shadow: 0px 3px 10px black;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.imagen:hover{
+  transform: scale(1.01);
+  transition: 0.5s ease-in-out;
+
+}
+
+.leftIcon{
+  width: 70px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.leftIcon:hover{
+  transform: scale(1.08);
+}
+
+.rightIcon{
+  width: 70px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.rightIcon:hover{
+  transform: scale(1.08);
+}
+
+.itemsContainer{
+  width: 100%;
+  height: 50px;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(155, 155, 155);
+  margin: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 2px 2px 5px black;
+  cursor: pointer;
+}
+
+.itemSelected{
+  width: 20px;
+  height: 20px;
+  background-color: rgba(189, 13, 13, 0.932);
+  margin: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 2px 2px 5px black;
+  cursor: pointer;
+}
+
+.divLogo{
+  width: 100px;
+  display: flex;
+  margin-right: 100px;
+}
+
+.logoEngtech{
+  width: 150px;
+}
+
+.itemNavbar{
+  margin-right: 50px;
+  height: 100%;
+  
+}
+
+.infoContainer{
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+.inputConsumo{
+  width: 60%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.botonCotizar{
+  width: 60%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(246, 161, 50);
+  cursor: pointer;
+}
+
+.botonCotizar:active{
+  background-color: rgb(216, 141, 43);
+  border: 1px solid white;
+}
+
+.infoCotizacion{
+  width: 30%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tituloPagina{
+  font-size: 60px;
+}
+
+.subtituloPagina{
+  font-size: 35px;
+}
+
+.listaKits{
+
+  list-style: none;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 80%;
+  border: 2px solid gray;
+}
+
+.itemPagina{
+  margin: 20px 0px 20px;
+  font-size:  20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+
+}
+
+.precioCamara{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: rgb(248, 139, 14);
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.listaCaracteristicasAuto{
+  list-style: none;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 80%;
+  border: 1px solid rgb(240, 112, 7);
+}
+
+.cotizacion{
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1300px){
+  .navbar{
+    width: 100%;
+  }
+  .MenuPpal{
+    font-size: 18px;
+  }
+
+  .footerInfo{
+    width: 100%;
+  }
+
+  .subtituloPaneles{
+    text-align: center;
+  }
+
+  .inputConsumo{
+    width: 80%;
+
+  }
+
+  .botonCotizar{
+    width: 80%;
+  }
+
+  .infoCotizacion{
+    width: 80%;
+  }
+
+  .listaKits{
+    width: 95%;
+  }
+
+  .tituloPagina{
+    text-align: center;
+  }
+
+  .subtituloPagina{
+    text-align: center;
+  }
+
+
+
+}
+
+@media screen and (max-width: 800px){
+  .navbar{
+    width: 100%;
+    height:  50px;
+
+  }
+  .MenuPpal{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .divLogo{
+    margin-right: 60px;
+  }
+  .itemNavbar{
+    margin-right: 10px;
+  }
+  .mainContent{
+    display: block;
+    width: 100%;
+  }
+
+  .imagen{
+    width: 70%;
+    height: 100%;
+  }
+
+  .imgContainer{
+    width: 100%;
+  }
+
+  .leftPart{
+    width: 100%;
+    height: 400px;
+  }
+
+  .rightPart{
+    width: 100%;
+    height: 400px;
+  }
+
+  .infoContainer{
+    width: 100%;
+  }
+
+  .itemsContainer{
+    margin-top: 5px;
+    z-index: 10;
+  }
+
+  .listaKits{
+    width: 95%;
+  }
+
+  .itemPagina{
+    font-size: 14px;
+  }
+
+  .tituloPagina{
+    font-size: 35px;
+  }
+
+  .subtituloPagina{
+    font-size: 20px;
+  }
 }
