@@ -30,14 +30,8 @@ export default function Home() {
   }
 
   const handleChange = ( e )=>{
-    if( typeof eval(e.target.value) === 'number'){
-      setKwh( e.target.value );
-    }else if(e.target.value === ''){
-      setError(true);
-    }else{
-      return 
-    }
- 
+    setKwh( e.target.value );
+
   }
 
   
