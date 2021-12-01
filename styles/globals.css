@@ -479,7 +479,7 @@ a {
     border-radius: 0px;
     width: 100%;
     padding: 3px;
-    bottom: 0px;
+    position: absolute;
   }
 
   .botonCotizar{
@@ -507,5 +507,9 @@ a {
   .listaCaracteristicasAuto{
     margin: 3px;
     padding: 3px;
+  }
+
+  .containerFooter{
+    bottom: 0px;
   }
 }
