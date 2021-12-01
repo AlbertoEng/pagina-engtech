@@ -23,7 +23,7 @@ const Navbar = () => {
                 </Link>
                 <Link href='automatizacion'>
                     <li className='itemNavbar'>
-                        Automatizacion
+                        Control
                     </li>
                 </Link>
             </ul>

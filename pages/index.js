@@ -71,8 +71,8 @@ export default function Home() {
       </div>
       <div className='rightPart'>
           <div className='infoContainer'>
-              <h2>Cotiza desde Aqui!</h2>
-              <h2 className='subtituloPaneles'>Escribe tu consumo en kWh al bimestre del recibo</h2>
+              <h2 className='tituloPagina'> Cotiza desde Aqui!</h2>
+              <h2 className='subtituloPagina'>Escribe tu consumo en kWh al bimestre del recibo</h2>
               <input onChange={handleChange} className='inputConsumo' type="text" name="consumo" id="" placeholder='Por Ej. 1530 kwh' />
               <input onClick={handleCotizar} className='botonCotizar' type="button" value="COTIZAR AHORA!" />
               <p className='infoCotizacion'>Esto es un calculo aprox. ya que se tiene que
