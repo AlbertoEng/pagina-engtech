@@ -48,7 +48,7 @@ a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-left: 50px;
+
 }
 
 .footerInfo{
@@ -274,6 +274,7 @@ a {
 
 .tituloPagina{
   font-size: 60px;
+  text-align: center;
 }
 
 .subtituloPagina{
@@ -336,13 +337,18 @@ a {
 
   .footerInfo{
     width: 100%;
+    border-radius: 0px;
+    bottom: 0px;
+    position: absolute;
   }
 
   .itemNavbar{
     margin-right: 0px;
-    font-size: 13px;
+    font-size: 18px;
     padding-right: 10px;
   }
+
+  
 
   .subtituloPagina{
     text-align: center;
@@ -406,7 +412,7 @@ a {
   }
 
   .imagen{
-    width: 90%;
+    width: 80%;
     height: 100%;
     margin: 0px;
   }
@@ -480,6 +486,7 @@ a {
     width: 100%;
     padding: 3px;
     position: absolute;
+    bottom: 0px;
   }
 
   .botonCotizar{
