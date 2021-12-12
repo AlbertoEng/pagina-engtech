@@ -446,8 +446,6 @@ a {
 
   .listaKits{
     width: 95%;
-    margin: 5px;
-    padding: 5px;
   }
 
   .itemPagina{
@@ -513,8 +511,10 @@ a {
   }
 
   .listaCaracteristicasAuto{
+    width: 95%;
     margin: 3px;
-    padding: 3px;
+    padding: 10px;
+    margin-top: 30px;
   }
 
   .containerFooter{

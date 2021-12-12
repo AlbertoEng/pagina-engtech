@@ -47,10 +47,10 @@ const Camaras = ()=> {
                     <h1 className='tituloPagina'>Sistemas CCTV y Alarmas</h1>
                     <h2 className='subtituloPagina'> Obten mas seguridad para tu hogar u oficina</h2>
                     <ul className='listaKits'>
-                        <li className='itemPagina'>Kit 2 Camaras bala con DVR ya instalado en  <span className='precioCamara'>$6,000</span> </li>
-                        <li className='itemPagina'>Kit 4 Camaras bala con DVR ya instalado en <span className='precioCamara'>$8,000</span> </li>
-                        <li className='itemPagina'>Kit 6 Camaras bala con DVR ya instalado en <span className='precioCamara'>$10,000</span> </li>
-                        <li className='itemPagina'>Kit 8 Camaras bala con DVR ya instalado en <span className='precioCamara'>$12,000</span> </li>
+                        <li className='itemPagina'>Kit 2 Camaras con DVR :  <span className='precioCamara'>$6,000</span> </li>
+                        <li className='itemPagina'>Kit 4 Camaras con DVR : <span className='precioCamara'>$8,000</span> </li>
+                        <li className='itemPagina'>Kit 6 Camaras con DVR :<span className='precioCamara'>$10,000</span> </li>
+                        <li className='itemPagina'>Kit 8 Camaras con DVR :<span className='precioCamara'>$12,000</span> </li>
                     </ul>
                 </div>
             </div>
